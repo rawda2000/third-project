@@ -1,0 +1,186 @@
+/* 1-common style----------------------------------------------------------------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+}
+/* 2-general style--------------------------------------------------------------------------------------------------------------- */
+body .main-p{
+    text-align: center;
+    font: 700 italic 40px monospace;
+}
+.y{
+    transform: scaleY(200%);
+    background-color: black;
+}
+/* 3-sections-------------------------------------------------------------------------------------------------------------------- */
+/* header------------------------------------------------------------------------------------------------------------------------ */
+.header .navbar{
+    background-color: rgba(0, 0, 20, 0.5);
+    padding: 0 1rem;
+}
+.header .btn ,.header .navbar-toggler{
+    background-color: rgb(192, 143, 143);
+}
+.header .dropdown-menu{
+    background-color: rgba(0, 0, 20, 0.6);
+}
+.header i{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(192, 143, 143);
+}
+/* main---------------------------------------------------------------------------------------------------------------------------- */
+.main img{
+    width: 100%;
+    height: 80vh;
+}
+/* section1------------------------------------------------------------------------------------------------------------------------ */
+.sec1 .btn{
+    background-color: rgb(192, 143, 143);
+}
+/* section2------------------------------------------------------------------------------------------------------------------------ */
+.sec2 .card-header{
+    cursor: pointer;  
+    background-color: rgb(210, 170, 170);
+    color: white;
+}
+.sec2 .card-body{
+    position: relative;
+}
+.sec2 a{
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.sec2 a:hover{
+    text-decoration: none;
+}
+/* section3------------------------------------------------------------------------------------------------------------------------ */
+.sec3 h2{
+    text-align: center;
+    background-color:  rgb(210, 170, 170);
+    color: white;
+    border-radius: 100px 0px;
+}
+.sec3 div{
+    padding: 40px ;
+    font-size: 20px;
+    position: relative;
+}
+.sec3 button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:  rgb(192, 143, 143);
+}
+/* section4------------------------------------------------------------------------------------------------------------------------ */
+.sec4{
+    height: 250px;
+    background: url(../IMGs/xx.jfif) center fixed;
+    background-size: cover;
+}
+/* section5------------------------------------------------------------------------------------------------------------------------ */
+.sec5{
+    text-align: center;
+}
+.figure5{
+    height: 450px;
+}
+.sec5 .btn{
+    border: none;
+    background-color: rgb(192, 143, 143);
+}
+/* section6------------------------------------------------------------------------------------------------------------------------ */
+.sec6{
+    height: 250px;
+    background: url(../IMGs/1\ \(5\).jpg) center fixed;
+    background-size: cover;
+}
+/* section7------------------------------------------------------------------------------------------------------------------------ */
+.sec7 figcaption{
+    font: 500 normal 20px serif;
+    line-height: 30px;
+}
+/* section8------------------------------------------------------------------------------------------------------------------------ */
+.sec8{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 200px;
+}
+.sec8 a{
+    color: black;
+}
+.div8{
+    width: 300px;
+    box-shadow: inset 0px 0px 60px 40px rgb(174, 135, 135);
+    color: white;
+    border-radius: 100px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: auto;
+}
+.icon i{
+    line-height: 60px;
+    font-size: 30px;
+    margin: auto;
+    color: white;
+    z-index: 10;
+}
+.icon::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+.icon:hover::before{
+    box-shadow: inset 0 0 0 60px black;
+}
+.icon:hover{
+    text-decoration: none;
+}
+/* footer------------------------------------------------------------------------------------------------------------------------ */
+.footer-logo{
+    width: 140px;
+    height: 60px;
+}
+.footer-div0{
+    background-color: #211f1f;
+}
+.footer-div0 input{
+    width: 200px;
+}
+.footer-div1{
+    background-color: rgb(0, 0, 0);
+}
+.y0{
+    background: white;
+}
+.footer-li , .footer-p{
+    line-height: 45px;
+}
+.footer-div1 p{
+    font-size: 12px;
+}
+footer .btn{
+    background-color: rgb(192, 143, 143);
+}
